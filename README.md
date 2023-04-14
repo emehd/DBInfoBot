@@ -1,5 +1,5 @@
 # DBInfoBot
-DB Traininfo Poshover Bot
+DB Traininfo Pushover Bot
 
 The application sends information about specified trains to the user via Pushover notification.
 
