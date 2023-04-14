@@ -1,12 +1,12 @@
 import json
 import os
-
 import requests
 import xmltodict
 
 
 def DB_delay():
-    url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/rchg/8010060"
+    evaNo = os.environ.get("EVANO")
+    url = f"https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/rchg/{evaNo}"
 
     payload = {}
     headers = {
